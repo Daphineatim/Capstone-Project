@@ -21,7 +21,7 @@ To get a local copy up and running, follow these simple steps.
 
 Run the following commands on the terminal of your local machine:
 
-- git clone 
+- git clone (https://github.com/Daphineatim/Capstone-Project.git)
 - cd Capstone-Project
 
 ## Authors
@@ -39,6 +39,13 @@ Contributions, issues, and feature requests are welcome!
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+### Acknowledgments
+- Hat tip to Microverse for giving me this project.
+- Hat tip to Cindy Chin for the design template used on this project.
+- Hat tip to All my peers at Microverse who gave me different ideas and suggestions on how to improve this website.
+- Hat tip to Cindy Shin GUI & Graphic Designer whose design was used to create the project
+
 
 ## 📝 License
 
