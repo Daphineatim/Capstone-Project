@@ -181,7 +181,6 @@ a {
   margin: 15px 0 40px 0;
   line-height: 160%;
   padding: 10px 16px;
-  /* font-size: 14px; */
 }
 
 .message-1 {
@@ -403,4 +402,142 @@ a {
   text-align: left;
   color: #000;
   padding-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  #top-panel {
+    background-color: #3e3e3e;
+    width: 100%;
+    display: block;
+  }
+
+  .logo {
+    display: block !important;
+  }
+
+  .nav-ul {
+    display: flex !important;
+  }
+
+  .nav-text {
+    font-family: 'cocogoose', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #3e3e3e;
+  }
+
+  .left-margin {
+    margin-left: 3rem !important;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 20px;
+  }
+
+  .program-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .toggle-1 {
+    display: block !important;
+  }
+
+  .toggle-2 {
+    display: none;
+  }
+
+  .toggle-3 {
+    display: block !important;
+  }
+
+  .text-card-1 {
+    /* font-family: cocogoose, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 16px; */
+    text-align: center;
+  }
+
+  .text-card-2 {
+    /* font-family: cocogoose, sans-serif;
+    font-size: 9px;
+    font-weight: normal;
+    line-height: 16px; */
+    text-align: center;
+  }
+
+  .p-top {
+    padding-top: 2rem !important;
+    background: none !important;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+
+  .w-max-3 {
+    max-width: 600px;
+  }
+
+  .grid-4 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .bg-footer {
+    background-color: rgb(235, 235, 235);
+  }
+
+  .bg-footer-about {
+    background-color: black;
+  }
+
+  .grid-5 {
+    display: grid;
+    grid-template-columns: 34% 66%;
+    text-align: center;
+    padding: 32px 0 !important;
+  }
+
+  .copyright {
+    /* font-family: 'cocogoose', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    color: #e1e1e1; */
+
+    font-family: 'cocogoose', sans-serif;
+    font-size: 9px;
+    font-weight: normal;
+    text-align: left;
+    color: #7a7a7a;
+    padding-top: 5px;
+  }
+
+  a:focus {
+    color: rgb(190, 190, 190);
+    font-weight: 900;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0 20px;
+  }
 }
