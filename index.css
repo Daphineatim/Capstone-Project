@@ -101,7 +101,6 @@ a {
   overflow: auto;
   background-color: #3e3e3e;
   backdrop-filter: blur(5px);
-  /* opacity: 0.92; */
 }
 
 .left-margin {
