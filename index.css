@@ -71,9 +71,11 @@ a {
   cursor: pointer;
   font-size: 42px;
   position: fixed;
-  right: 60px;
-  top: 60px;
+  right: 30px;
+  top: 20px;
   z-index: 9;
+  width: 11px;
+  height: 11px;
 }
 
 .hide {
@@ -87,19 +89,19 @@ a {
 .nav-ul.show {
   display: flex !important;
   flex-direction: column !important;
-  align-items: flex-start !important;
-  justify-content: flex-start !important;
-  padding: 100px 60px;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 10% 8%;
   position: fixed;
   z-index: 1;
   left: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   overflow: auto;
   background-color: #3e3e3e;
   backdrop-filter: blur(5px);
-  opacity: 0.92;
+  /* opacity: 0.92; */
 }
 
 .left-margin {
@@ -110,8 +112,8 @@ a {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 20px;
+  line-height: 32px;
   color: #fff;
 }
 
@@ -515,6 +517,11 @@ a:focus {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+  }
+
+  #btn {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
   }
 
   .grid-2 {
