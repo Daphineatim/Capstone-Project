@@ -15,6 +15,7 @@
 
 [Live Demo Link](https://daphineatim.github.io/Capstone-Project/)
 
+## Link to loom video
 [Link to loom video](https://www.loom.com/share/812c532f23ce42de95933747a7c14a81)
 
 ## Getting Started
