@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://daphineatim.github.io/Capstone-Project/)
 
 ## Getting Started
 
