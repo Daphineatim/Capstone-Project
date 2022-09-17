@@ -259,11 +259,6 @@ a {
 }
 
 .program-section {
-  /* display: grid;
-  grid-template: 1fr /15% 30% 55%; */
-  /* display: flex;
-  align-items: center;
-  justify-content: space-between; */
   display: grid;
   grid-template: 1fr / 1fr;
   background-color: rgba(255, 255, 255, 0.15);
@@ -496,7 +491,7 @@ a:focus {
   }
 
   .flex-program {
-    display:block;
+    display: block;
     justify-content: center;
     align-items: flex-start;
   }
