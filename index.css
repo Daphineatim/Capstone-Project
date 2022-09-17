@@ -185,13 +185,6 @@ a {
   border: 1px solid rgba(39, 42, 50, 0.24);
 }
 
-/* .main-about-bg {
-  background-image: url('/assets/bg-sponsors.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-} */
-
 .message-1,
 .message-2,
 .message-3,
@@ -491,7 +484,7 @@ a:focus {
   }
 
   .flex-program {
-    display: block;
+    display:block;
     justify-content: center;
     align-items: flex-start;
   }
@@ -550,18 +543,10 @@ a:focus {
   }
 
   .text-card-1 {
-    /* font-family: cocogoose, sans-serif;
-    font-size: 12px;
-    font-weight: normal;
-    line-height: 16px; */
     text-align: center;
   }
 
   .text-card-2 {
-    /* font-family: cocogoose, sans-serif;
-    font-size: 9px;
-    font-weight: normal;
-    line-height: 16px; */
     text-align: center;
   }
 
