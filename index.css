@@ -484,7 +484,7 @@ a:focus {
   }
 
   .flex-program {
-    display:block;
+    display: block;
     justify-content: center;
     align-items: flex-start;
   }
